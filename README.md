@@ -1,13 +1,8 @@
-USB_Host
-========
-
-LiteBlu USB Host Board
-
-1. Introduction
+#Introduction
 
 The LiteBlu USB Host is a Microchip PIC microcontroller board which contains a built-in full-speed USB host controller. This allows the board to connect to and control any USB device.
 
-2. Features
+#Features
 	No USB Programming required
 	UART and I2C interface
 	Software upgradable via UART using built in bootloader (DS30Loader)
@@ -20,30 +15,29 @@ The LiteBlu USB Host is a Microchip PIC microcontroller board which contains a b
 	5V and 3.3V compatible
 	On-board 3.3V regulator with output (up to 250mA)
 
-3. Host software
-3.1 Flash Drive
+#Host software
+##Flash Drive
 
 The Flash Drive Host Software allows you to read/write from/to a USB Flash Drive. You can connect to it using terminal software (RS232 to serial TTL convertion required) or directly to your 5V or 3.3V microcontroller.
 
-Features
+###Features
 	Supports FAT16 and FAT32 formats
 	Simple serial (UART) interface
 	Silent mode or terminal mode
 
-Required Connections
-
+###Required Connections
 	5V Power [INPUT]
 	GND
 	TX [OUTPUT]
 	RX [INPUT]
 	SS [OUTPUT] Optional. Goes high when USB Flash Drive connected, low if removed.
 
-Supported Commands
+###Supported Commands
 
 
 
 
-4. Programming
+#Programming
 This section describes how to reprogram the LiteBlu USB Host using the built in bootloader.
 
 The built in bootloader is the free DS30Loader.
