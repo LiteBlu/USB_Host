@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [USBHOSTV100.PcbDoc]
+   Generated File[USBHOSTV100.TXT]
+   Generated File[USBHOSTV100.DRL]
+   Generated File[USBHOSTV100.LDP]
+   Generated File[USBHOSTV100.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:03:43 PM On 7/23/2013
